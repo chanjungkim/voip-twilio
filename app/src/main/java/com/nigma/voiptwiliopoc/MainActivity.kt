@@ -158,7 +158,6 @@ class MainActivity : AppCompatActivity(), Callback {
         }
     }
 
-
     private fun capitalize(s: String?): String {
         if (s.isNullOrEmpty()) return ""
         val first = s[0]
@@ -191,6 +190,4 @@ class MainActivity : AppCompatActivity(), Callback {
         }
         return true
     }
-
-
 }
